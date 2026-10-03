@@ -7,6 +7,8 @@
 
 Two [Agent Skills](https://agentskills.io) that let any coding agent notice durable, reusable procedures during normal work and **ask before** saving them as skills. They also keep the library tidy when you ask. They are plain Markdown with no runtime, no hooks, and no dependencies, so they work in any harness that reads `SKILL.md`: Claude Code, OpenCode, Codex, Gemini CLI, Cursor, and others.
 
+![skill-scout proposes a skill and waits for approval](docs/demo.svg)
+
 > This looks reusable: review the saved Terraform plan with the on-call owner, then apply only that artifact. Save as `terraform-plan-review` (project skill)?
 
 Reply **yes**, **no**, **make it global**, **rename it**, **add X**, or **merge with Y**. Ordinary work should produce no suggestion.
