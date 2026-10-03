@@ -5,7 +5,7 @@ description: Notices durable, reusable procedures in the current work and propos
 
 # Skill scout
 
-Agent notices. Human decides. The skill library remembers.
+Explain it once. The user explains a procedure one time; you ask before you save it.
 
 Finding a candidate gives you initiative to **propose**. It does not give you permission to write. A user who describes a reusable procedure, or complains about repeating it, is not asking you to save it: propose, then wait.
 

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img" aria-labelledby="t d">
+  <title id="t">skill-scout: explain it once</title>
+  <desc id="d">The user explains a Terraform procedure again. The agent asks to save it as the skill terraform-plan-review. The user says yes. In the next session, the agent uses the skill and the user does not explain it again.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="440" rx="12" fill="#0b0f17"/>
+  <rect x=".5" y=".5" width="879" height="439" rx="12" fill="none" stroke="#30363d"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="28" y="66" fill="#e6edf3"><tspan fill="#8b949e">you&gt;</tspan> Same as last time: save the Terraform plan, get the on-call</text>
+    <text x="28" y="88" fill="#e6edf3" xml:space="preserve">      owner to review it, then apply only that plan.</text>
+    <text x="28" y="120" fill="#8b949e">agent&gt; Done. The reviewed plan is applied.</text>
+
+    <rect x="20" y="138" width="840" height="98" rx="8" fill="#161b26" stroke="url(#g)"/>
+    <text x="36" y="166" fill="#e6edf3"><tspan fill="#a78bfa" font-weight="700">skill-scout</tspan> This looks reusable: review the saved Terraform plan with</text>
+    <text x="36" y="190" fill="#e6edf3">the on-call owner, then apply only that plan. Save as</text>
+    <text x="36" y="214" fill="#e6edf3"><tspan fill="#6ee7b7">terraform-plan-review</tspan> (project skill)?</text>
+
+    <text x="28" y="268" fill="#e6edf3"><tspan fill="#8b949e">you&gt;</tspan> yes</text>
+    <text x="28" y="292" fill="#6ee7b7">✓ Saved .agents/skills/terraform-plan-review/SKILL.md</text>
+
+    <line x1="28" y1="322" x2="852" y2="322" stroke="#30363d" stroke-dasharray="4 6"/>
+    <text x="440" y="327" fill="#8b949e" text-anchor="middle" font-size="13" style="paint-order:stroke" stroke="#0b0f17" stroke-width="10">next session</text>
+
+    <text x="28" y="360" fill="#e6edf3"><tspan fill="#8b949e">you&gt;</tspan> Deploy staging.</text>
+    <text x="28" y="388" fill="#8b949e">agent&gt; Using skill <tspan fill="#6ee7b7">terraform-plan-review</tspan>. Saving the plan for on-call review.</text>
+    <text x="28" y="418" fill="#34d399" font-weight="700">You explained it once.</text>
+  </g>
+</svg>
