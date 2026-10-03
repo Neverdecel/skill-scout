@@ -4,6 +4,8 @@ Maintainer notes. Users can skip this.
 
 ## Principles
 
+- **Explain it once.** This is the problem we solve: a user should not
+  have to explain a confirmed procedure to the agent again.
 - **Agent notices, human decides.** Noticing is cheap; writing needs
   explicit approval of the specific change. Frustration ("I keep telling
   you...") is a signal to propose, not consent to write.
